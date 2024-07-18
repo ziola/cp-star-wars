@@ -1,0 +1,49 @@
+.dialog {
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+  color: #8d493a;
+  background-color: #dfd3c3;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 8px 8px 12px 0px rgba(141, 73, 58, 1);
+}
+
+::backdrop {
+  background-color: #8d493a;
+  opacity: 0.5;
+}
+
+.modal {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.modalTitle {
+  flex: 0 0 auto;
+}
+
+.modalFooter {
+  flex: 0 0 auto;
+  margin-top: 8px;
+}
+
+.modalContent {
+  flex: 1 1 auto;
+  overflow: auto;
+}
+
+.modal ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.modal li {
+  border: 1px solid;
+  margin-bottom: 8px;
+}
